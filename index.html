@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="HTML,CSS,JavaScript">
@@ -7,9 +7,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" type="text/css"/>
     <title>Project 1 IoT4Climate</title>
 </head>
 <body>
-    <p>Hello world.</p>
+    <div class="hoofd"> <!-- Top -->
+        <h1>IoT4Climate</h1>
+        <q>Slim verbonden. Samen groen.</q>
+    </div>
+    <nav> <!-- Navigation-->
+        <ul>
+            <li><a class="navlinks" href="#secone">Over ons</a></li>
+            <li><a class="navlinks" href="#sectwo">Het probleem</a></li>
+            <li><a class="navlinks" href="#secthree">Wat wij eraan doen</a></li>
+            <li><a class="navlinks" href="#secfour">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="secone"> <!-- Section 1 -->
+        <h2>Over ons</h2>
+        <p>Ons bedrijf werd opgericht door een gepassioneerd team van ingenieurs en milieu-experts met een gedeelde visie: technologie inzetten om de strijd tegen klimaatverandering te versnellen. Geïnspireerd door de kracht van het Internet of Things (IoT), bundelden wij onze expertise om innovatieve oplossingen te ontwikkelen die energie-efficiëntie verbeteren, afval verminderen en natuurlijke hulpbronnen beschermen.</p>
+        <p>Onze missie is helder: duurzame impact creëren door slimme, schaalbare technologieën die zowel bedrijven als gemeenschappen helpen hun ecologische voetafdruk te verkleinen. Samen bouwen we aan een toekomst waarin technologie en duurzaamheid hand in hand gaan.</p>
+        <img src="/resources/images/bruggeo.jpg">
+        <a href="#top">Naar boven</a>
+    </section>
+    <section id="sectwo"> <!-- Section 2 -->
+        <h2>Het probleem</h2>
+        <p>Klimaatopwarming verwijst naar de stijging van de gemiddelde temperatuur op aarde door een verhoogde concentratie van broeikasgassen, zoals CO₂ en methaan, in de atmosfeer. Deze gassen worden voornamelijk veroorzaakt door menselijke activiteiten, zoals het verbranden van fossiele brandstoffen en ontbossing.</p>
+        <p>De gevolgen zijn verstrekkend: smeltende ijskappen en stijgende zeespiegels bedreigen kustgebieden, terwijl extreme weersomstandigheden, zoals hittegolven, droogtes en overstromingen, steeds vaker voorkomen. Daarnaast leidt klimaatverandering tot verlies van biodiversiteit, verzuring van oceanen en sociale en economische instabiliteit.</p>
+        <img src="resources/images/klimaeo.jpg">
+        <a href="#top">Naar boven</a>
+    </section>
+    <section id="secthree"> <!-- Section 3 -->
+        <h2>Wat wij eraan doen</h2>
+        <div class="subsecthree">
+            <p><span style="font-weight: bold;">Slimme energiemeters:</span><br>IoT-apparaten kunnen realtime energieverbruik monitoren en optimaliseren. Huishoudens en bedrijven kunnen hiermee efficiënter omgaan met elektriciteit, wat leidt tot minder energieverspilling en lagere CO₂-uitstoot.</p>
+            <p><span style="font-weight: bold;">Slimme irrigatiesystemen:</span><br>Met sensoren die bodemvocht en weersomstandigheden meten, zorgen IoT-gestuurde irrigatiesystemen voor een efficiënter gebruik van water in de landbouw, waardoor verspilling wordt verminderd en natuurlijke hulpbronnen worden beschermd.</p>           
+            <p><span style="font-weight: bold;">Slim afvalbeheer:</span><br>IoT-sensoren in vuilnisbakken kunnen aangeven wanneer ze vol zijn, wat helpt bij het optimaliseren van afvalinzameling. Dit vermindert onnodige ritten van vuilniswagens en draagt bij aan lagere CO₂-emissies in stedelijke gebieden.</p>
+        </div>
+        <img src="resources/images/ioto.jpg">
+        <a href="#top">Naar boven</a>
+    </section>
+    <section id="secfour"> <!-- Section 4 -->
+        <h2>Contact</h2>
+        <div class="subsecfour">
+            <div class="contactlist">
+                <h2 class="subcontact">IoT4Climate</h2>
+                <ul>
+                    <li>
+                        <a href="www.google.maps">Xaverianenstraat 10, 8000 Brugge</a>
+                        <i class="fa fa-map-marker-alt"></i>
+                    </li>
+                    <li>
+                        <a href="mailto:info@iot4climate.be">info@iot4climate.be</a>
+                        <i class="fa fa-envelope"></i>  
+                    </li>
+                    <li>
+                        <a href="callto:+3250102030">+32 50 10 20 30</a>
+                        <i class="fa fa-phone"></i>
+                    </li>
+                    <li>
+                        <a href="www.iot4climate.be">www.iot4climate.be</a>
+                        <i class="fa fa-globe"></i>
+                    </li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </ul>
+            </div>
+            <form action="/resources/data/">
+                <h2 class="subcontact">Neem contact op</h2>
+                <div class="form-item">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Naam">
+                </div>
+                <div class="form-item">
+                    <i class="fa fa-envelope"></i>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="form-item">
+                    <i class="fa fa-phone"></i>
+                    <input type="text" placeholder="Telefoon">
+                </div>
+                <textarea rows="10" placeholder="Uw bericht..."></textarea>
+                <button type="submit">Verstuur</button>
+            </form>
+        </div>
+        <a href="#top">Naar boven</a>
+    </section>
+    <footer> <!-- Copyright -->
+        <p>&copy; 2024 IoT4Climate</p>
+    </footer>
 </body>
 </html>

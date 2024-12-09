@@ -1,0 +1,160 @@
+html {
+    background-color: #001625; /* achtergrondkleur */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* moderne font en vaste grootte en kleur voor pagina*/
+    font-size: 16px;
+    color: black;
+}
+
+body {
+    width: 90%; /* 90% breedte*/
+    margin: 2% auto; /* centraal met marge boven */
+    background-color: whitesmoke; /* achtergrondkleur */
+}
+
+/* 4. */
+.hoofd {
+    height: 376px; /* achtergrond die volledig opvult*/
+    background-size: cover;
+    background-image: url(../images/toptop.jpg);
+    text-align: center; /* centrale text */
+}
+
+q {
+    font-style: italic; /* opmaak slogan */
+    color: lightskyblue;
+}
+
+h1 {
+    padding-top: 32px; /* opmaak titel */
+    font-size: 64px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+/* 5. */
+ul {
+    list-style-type: none; /* opmaak */
+    overflow: hidden; 
+    background-color: lightslategray;
+}
+
+ul .navlinks {
+    float: left; /* horizontaliteit */
+}
+
+.navlinks {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 18px;
+}
+
+.navlinks:hover {
+    background-color: rgb(237, 86, 44); /* opmaak verandering bij hover*/
+}
+
+/* 6. */
+section {
+    margin: 50px;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+section:nth-of-type(even) {
+    background-color: lightslategray; /* alternerende achtergrondkleur*/
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #053453; /* accentkleur*/
+    padding: 18px 0px;
+    column-span: all; /* zie 7. */
+}
+
+section p, section a {
+    color: black;
+    font-size: 1.1em; /* tekst is groter*/
+    padding-bottom: 12px;
+}
+
+section a {
+    display: contents; /* naar boven */
+    margin-top: 16px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    max-width: 512px;
+    height: auto;
+    border: 3px solid #001625; /* rond met border */
+    border-radius: 12px;
+}
+
+/* 7. */
+.subsecthree {
+    column-count: 3;
+}
+
+/* 8. */
+.subsecfour {
+    display: grid;
+    grid-template-columns: 2fr 3fr; /* grid met gap*/
+    column-gap: 12px;
+}
+
+.subcontact {
+    font-size: 1.2em;
+}
+
+.contactlist {
+    border-right: 3px solid #053453; /* divider */
+    text-align: right;
+    padding-right: 16px;
+}
+
+li i {
+    padding: 16px 0px 22px 16px;
+}
+
+.form-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+form div i {
+    padding: 16px;
+    background: rgb(237, 86, 44);
+    color: white;
+    width: 64px;
+    text-align: center;
+}
+  
+input {
+    width: 100%;
+    padding: 16px;
+    outline: none;
+}
+
+button {
+    background-color: rgb(237, 86, 44);
+    color: white;
+    padding: 16px;
+    border: none;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+/* 9. */
+footer {
+    font-size: 0.8em; /* tekst is kleiner*/
+    padding: 10px;
+    background-color: black; /* andere tekst en achtergrond kleur */
+    color: whitesmoke;
+}
